@@ -1,7 +1,5 @@
 name: test        #name: ワークフローの名前
-
 on: push          #on: いつこのワークフローを走らせるか
-
 jobs:             #走らせたい処理（ジョブ）のリスト
   test:           #testというジョブを作る
     runs-on: ubuntu-latest   #どの環境で動かすか
